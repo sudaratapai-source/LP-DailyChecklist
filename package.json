@@ -1,0 +1,16 @@
+{
+  "name": "line-daily-checklist-bot",
+  "version": "1.0.0",
+  "description": "LINE bot สำหรับตรวจจับและสรุปรายงานประจำวันในกลุ่ม",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "@line/bot-sdk": "^9.4.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
